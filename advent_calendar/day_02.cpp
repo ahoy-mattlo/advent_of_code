@@ -21,7 +21,7 @@ int main () {
     int result;
     int sum = 0;
 
-    ifstream myfile ("Z:/Prog/CPP/advent_calendar/f_day_02.txt");
+    ifstream myfile ("./f_day_02.txt");
 
     if(myfile.is_open()) {
         while(getline (myfile,line)) {
