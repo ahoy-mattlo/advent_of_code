@@ -6,7 +6,7 @@ using namespace std;
 
 int main () {
     string line;
-    ifstream myfile ("Z:/Prog/CPP/advent_calendar/f_day_01.txt");
+    ifstream myfile ("./f_day_01.txt");
 
     string str_nums[10] = {"zero", "one", "two", "three", "four", 
                          "five", "six", "seven", "eight", "nine"};
